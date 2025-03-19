@@ -47,7 +47,7 @@ document.getElementById('patientForm').addEventListener('submit', function(event
     };
 
     // Enviar los datos usando Fetch API
-    fetch('https://hl7-patient-write-ver-nica-2005-08-20.onrender.com', {
+    fetch('https://hl7-fhir-ehr-ver-nica.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
